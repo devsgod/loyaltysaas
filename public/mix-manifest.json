@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/campaign.css": "/css/campaign.css",
+    "/css/staff.css": "/css/staff.css",
+    "/css/site.css": "/css/site.css",
+    "/js/campaign.js": "/js/campaign.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/site.js": "/js/site.js",
+    "/js/staff.js": "/js/staff.js",
+    "/js/vendor.js": "/js/vendor.js"
+}

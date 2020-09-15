@@ -1,0 +1,74 @@
+// Variables
+@import "variables";
+
+@import '~vuetify/dist/vuetify.css';
+@import '~nprogress/nprogress.css';
+
+body {
+	font-family: Roboto,sans-serif;
+}
+
+.no-caps {
+  text-transform: none !important;
+}
+
+.v-card__text, .v-card__title {
+  word-break: normal !important;
+}
+
+.text-xs-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.qr-100 img,
+.qr-100 canvas {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.img-rounded {
+  border-radius: 50% !important;
+}
+
+.sub-title-multi-line {
+  white-space: normal;
+}
+
+.blueimp-gallery {
+	.close,
+	.prev,
+	.next {
+		visibility: hidden;
+		direction: ltr !important;
+		font-family: 'Material Icons' !important;
+		font-size: 24px !important;
+		font-style: normal !important;
+		font-weight: normal !important;
+		letter-spacing: normal !important;
+		line-height: 1 !important;
+		text-transform: none !important;
+		white-space: nowrap !important;
+		word-wrap: normal !important;
+		-webkit-font-feature-settings: 'liga' !important;
+		-webkit-font-smoothing: antialiased !important;
+	}
+	.close:after,
+	.prev:after,
+	.next:after {
+		visibility: visible;
+	}
+
+	.close:after {
+	  content: 'close';
+	}
+	.prev:after {
+	  content: 'arrow_back_ios';
+	}
+	.next:after {
+	  content: 'arrow_forward_ios';
+	}
+}
